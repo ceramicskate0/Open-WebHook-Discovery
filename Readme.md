@@ -2,6 +2,8 @@
 
 A standalone, standard-library CLI that crawls one authorized website for **potential** webhook receiver endpoints. It starts from the supplied hostname and discovers pages, forms, and same-origin JavaScript dynamically; it does not use a third-party search service or a bundled endpoint list.
 
+<img width="181" height="150" alt="image" src="https://github.com/user-attachments/assets/3c1ce755-2790-4cb0-88a4-1584b5154c80" />
+
 ## How it works
 
 <p align="center"><img src="docs/workflow.svg" alt="Workflow: repeatedly crawl same-origin pages and scripts until limits are reached, then report redacted candidate endpoints without submitting requests" width="100%"></p>
